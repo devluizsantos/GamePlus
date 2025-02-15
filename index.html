@@ -12,13 +12,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GamePlus+</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/hero.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <body>
     <header>
         <nav id="nav-bar">
 
-            <h1 id="logo">GamePlus+</h1>
+            <div  id="logo">
+                <h1>
+                    Game
+                </h1>
+                <h1 id="verde-italico">
+                    Plus+
+                </h1>
+            </div>
             
             <ul id="nav_list">
                 <li class="nav-item active">
@@ -26,12 +36,12 @@
                         Início
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="#" class="nav-link">
                         Sobre
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  active">
                     <a href="#">
                         Avaliações
                     </a>
@@ -45,36 +55,21 @@
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
             </button>
-
         </nav>
-        <div id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item"> <a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"> <a href="#" class="nav-link">Sobre</a></li>
-                <li class="nav-item"> <a href="#" class="nav-link">Avaliações</a></li>
-            </ul>
 
-            <button id="login-button-menu">
-                <a href="#"></a>Junte-se a nós!
-            </button>
-        </div>
     </header>
 
     <main>
         <section id="hero">
-            <div class="info">
+            <div id="info">
                 <h1>Junte-se a nós e venha jogar!</h1>
                 <p>Faça parte de uma das maiores comunidades gamers do Brasil. Aproveite nossas ofertas, recursos e outros grandes privilégios.</p>
                 <button>START NOW</button>
             </div>
-            <div class="saiba_mais">
-                <p>Saiba mais</p>
-                <img src="src/img/chevron-down-solid.svg" alt="">
-            </div>
         </section>
-
+        
         <section id="sobre">
-            <div class="sobre_conteudo">
+            <div id="sobre_conteudo">
                 <h1>Presamos pela sua experiência, e diversão!</h1>
                 <p>Nosso objetivo é revolucionar e trazer novas oportunidades para o mundo gamer. Contamos jogos exclusivos, comunidades e mods que trabalham para manter o ambiente saudável.</p>
             </div>
