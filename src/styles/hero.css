@@ -4,11 +4,10 @@
     background-image: url('../img/background.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;display: flex;
+    background-repeat: no-repeat;
+    display: flex;
     flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
+    justify-content: center;
 }
 
 #info {
@@ -17,6 +16,7 @@
     justify-content: center; 
     align-items: center; 
     text-align: center;
+    gap: 37px;
     
 }
 
@@ -28,18 +28,19 @@
 #info p {
     font-size: 18px;
     max-width: 600px;
-    padding-top: 37px;
-    padding-bottom: 37px;
 }
 
 #info button {
+    display: flex;
     border: none;
+    align-items: center;
+    justify-content: center;
     background-color: white;
     padding: 10px 40px;
     border-radius: 8px;
     color: #101720;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     transition: background-color .3s ease
 }
