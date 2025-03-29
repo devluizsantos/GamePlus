@@ -1,0 +1,107 @@
+#avaliacoes {
+    background: #161d28;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.avaliando {
+    padding: 10px;
+    border: 2px solid;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 150px;
+}
+
+.texto {
+    font-size: 11px;
+    width: 180px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.avaliando h3 {
+    font-size: 15px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.star {
+    width: 13px;
+}
+
+.box_avaliação {
+    width: 100px;
+    justify-content: center;
+}
+
+#box {
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 60px;
+    padding-bottom: 60px;
+    margin: 10px;
+}
+
+#avaliacoes h1 {
+    font-size: 25px;
+    padding: 30px;
+}
+
+#ta_esperando_oq {
+    background-color: #101720;
+}
+
+#ultimo_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#ultimo_button h1 {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    max-width: 400px;
+}
+
+#ultimo_button p {
+    font-size: 18px;
+    padding-bottom: 40px;
+    max-width: 60%;
+}
+
+#ultimo_button button {
+    margin-bottom: 40px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 8px;
+    color: #101720;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease
+}
+
+#junte_se_a_nos:hover {
+    background-color: #a7a7a7;
+}

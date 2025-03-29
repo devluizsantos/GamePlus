@@ -1,0 +1,24 @@
+footer {
+    background: #161d28;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#final {
+    width: 70%;
+    margin: 30px;
+}
+
+#final p {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1070px) {
+    footer {
+        display: none;
+    }
+}
